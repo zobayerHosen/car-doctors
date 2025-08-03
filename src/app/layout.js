@@ -19,13 +19,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* navbar */}
         <Navbar />
-        {children}
+        <main className="container mx-auto w-full">{children}</main>
       </body>
     </html>
   );
