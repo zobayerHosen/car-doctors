@@ -39,7 +39,6 @@ const ServicesDetailsPage = async ({ params }) => {
                         alt={data.title}
                     />
                 </figure>
-
                 {/* service title */}
                 <p className='text-3xl font-semibold mt-5'>{data.title}</p>
             </div>
